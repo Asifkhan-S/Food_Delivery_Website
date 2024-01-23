@@ -7,13 +7,13 @@ export default function Header() {
     name: "Asif",
   };
 
-  const {cart}=useCart();
+  const { cart } = useCart();
   const logout = () => {};
   return (
     <header className={classes.header}>
       <div className={classes.container}>
         <Link to="/" className={classes.logo}>
-          Foodzzz!
+          Foodzzz!!!
         </Link>
         <nav>
           <ul>
